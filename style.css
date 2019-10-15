@@ -1,0 +1,82 @@
+body{
+	background:purple;
+}
+.mainheading
+{
+	text-align: center;
+	font-family:Comic Sans MS;
+	font-size: 28px;
+	color:yellow;
+
+}
+.main{
+	background: white;
+	width: 13%;
+	border-radius: 5px;
+	display: inline-block;
+    padding: 10px; 
+	
+}
+.ownername{
+	text-align: center;
+	border-top: 10px;
+	font-family:arial black;
+
+}
+.reponame{
+	text-align: center;
+	padding:0px;
+	font-family:arial;
+	font-size: 25px;
+}
+.forkandstar{
+	text-align: center;
+	font-family: cooper black
+
+}
+.button{
+	padding: 10px;
+	text-align: center;
+}
+.secondbutton{
+	padding: 10px;
+	text-align: center;
+}
+.button1{
+	text-align:center;
+	padding: 5px;
+	border-radius: 4px;
+	cursor: pointer;
+	background: white;
+	border-style: groove;
+    width: 80px;
+
+}
+.button1:hover{
+	background: black;
+	color: white;
+}
+
+.button2:hover{
+	background: black;
+	color:white;
+}
+
+.button2{
+	text-align:center;
+	padding: 5px;
+	border-radius: 4px;
+	cursor: pointer;
+	background: white;
+	border-style: groove;
+	width: 80px;
+
+
+
+}
+.main:hover{		
+	box-shadow: 2px 2px 10px black;
+
+}.supermain{
+
+}
