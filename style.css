@@ -2,24 +2,26 @@
 	padding: 1px;
 }
 body{
-	background:grey;
+	background: linear-gradient(to right,#4981e7,#e90b0b);
+
 	}
 .mainheading
 {
 	text-align: center;
 	font-family:Comic Sans MS;
 	font-size: 28px;
-	color:yellow;
+	
 
 }
 .main{
 	background:white;
 	width: 13%;
-	border-radius: 5px;
+	border-radius: 20px;
 	display: inline-block;
     padding: 5px;
     margin: 20px; 
-   
+    
+   background-color: orange;
     margin-bottom: 30px;
 
 	
@@ -33,12 +35,14 @@ body{
 	
 
 }
-.reponame{
+.reponame pre{
 	text-align: center;
 	padding:0px;
-	font-family:arial black;
-	font-size: 20px;
-	color:magenta ;
+     font-style: bold;
+	font-family:comic sans ms;
+	font-size: 30px;
+	color:green ;
+	
 
 
 
@@ -102,8 +106,9 @@ body{
 
 
 }
-.main:hover{		
-	 box-shadow: 2px 2px 10px black;
+.main:hover{	
+ box-shadow: 2px 2px 5px black;	
+	
 }.supermain{
 
 }
