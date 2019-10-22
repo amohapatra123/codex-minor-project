@@ -120,3 +120,7 @@ hr{
 	padding: 2px;
 	color: black;
 }
+.forkandstar pre:hover{
+	background-color: white;
+	color:purple;
+}
