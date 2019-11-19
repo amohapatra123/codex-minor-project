@@ -1,0 +1,138 @@
+*{
+	padding: 1px;
+}
+body{
+	background: #2980B9;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #FFFFFF, #6DD5FA, #2980B9);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #FFFFFF, #6DD5FA, #2980B9); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+	
+	}
+.mainheading
+{
+	text-align: center;
+	font-family:Comic Sans MS;
+	font-size: 28px;
+	
+
+}
+.main{
+	background:white;
+	width: 13%;
+	border-radius: 20px;
+	display: inline-block;
+    padding: 5px;
+    margin: 20px; 
+    
+  background: #ff9966;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to bottom, #ff5e62, #ff9966);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to bottom, #ff5e62, #ff9966); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+
+    margin-bottom: 30px;
+
+
+	
+}
+.ownername{
+	text-align: center;
+	border-top: 10px;
+	font-family:arial black;
+	font-size: 12px;
+	color: black;
+	
+
+}
+.reponame pre{
+	text-align: center;
+	padding:0px;
+     font-style: bold;
+	font-family:comic sans ms;
+	font-size: 30px;
+	color:green ;
+	
+
+
+
+}
+.forkandstar pre{
+	text-align: center;
+	font-family: cooper black;
+	background-color: purple;
+	color: white;
+
+
+}
+.button{
+	padding: 0px;
+	text-align: center;
+
+
+}
+.secondbutton{
+	padding: 5px;
+	text-align: center;
+}
+.button1{
+	text-align:center;
+	padding: 5px;
+	border-radius: 4px;
+	cursor: pointer;
+	background: #0cebeb;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to bottom, #29ffc6, #20e3b2, #0cebeb);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to bottom, #29ffc6, #20e3b2, #0cebeb); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+	border-color: grey;	
+	border-style: groove;
+    width: 100px;
+    color: black;
+    font-size: 15px;
+
+
+
+
+}
+.button1:hover{
+	background: black;
+	color: white;
+}
+
+.button2:hover{
+	background: black;
+	color:white;
+}
+
+.button2{
+	text-align:center;
+	padding: 5px;
+	border-radius: 4px;
+	cursor: pointer;
+	background: #0cebeb;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to bottom, #29ffc6, #20e3b2, #0cebeb);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to bottom, #29ffc6, #20e3b2, #0cebeb); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+	border-color: grey;
+	border-style: groove;
+	width: 100px;
+	color: black;
+	font-size: 15px;
+
+
+
+}
+.main:hover{	
+ box-shadow: 2px 2px 5px black;	
+	
+}.supermain{
+
+}
+.reponame pre{
+	text-align:centre;
+	font-size:100%;
+}
+hr{
+	padding: 2px;
+	color: black;
+}
+.forkandstar pre:hover{
+	background-color: white;
+	color:purple;
+}
