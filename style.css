@@ -128,11 +128,19 @@ background: linear-gradient(to bottom, #29ffc6, #20e3b2, #0cebeb); /* W3C, IE 10
 	text-align:centre;
 	font-size:100%;
 }
-hr{
-	padding: 2px;
-	color: black;
-}
+
 .forkandstar pre:hover{
 	background-color: white;
 	color:purple;
+}
+footer{
+	
+	text-align:center;
+
+}
+footer img{
+	width: 40px;
+	height: 40px;
+	padding:4px;
+	cursor: pointer;
 }
