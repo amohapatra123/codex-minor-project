@@ -40,7 +40,7 @@ background: linear-gradient(to bottom, #ff5e62, #ff9966); /* W3C, IE 10+/ Edge, 
 	font-family:arial black;
 	font-size: 12px;
 	color: black;
-position: fixed;
+position: relative;
 	
 
 }
