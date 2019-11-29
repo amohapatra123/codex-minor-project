@@ -51,7 +51,7 @@ position: relative;
 	font-family:comic sans ms;
 	font-size: 30px;
 	color:green ;
-position: fixed;
+position: relative;
 	
 
 
@@ -62,7 +62,7 @@ position: fixed;
 	font-family: cooper black;
 	background-color: purple;
 	color: white;
-position: fixed;
+position: relative;
 
 
 }
@@ -131,7 +131,7 @@ background: linear-gradient(to bottom, #29ffc6, #20e3b2, #0cebeb); /* W3C, IE 10
 .reponame pre{
 	text-align:centre;
 	font-size:100%;
-Position: fixed;
+Position: relative;
 }
 
 .forkandstar pre:hover{
