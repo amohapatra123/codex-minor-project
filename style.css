@@ -5,22 +5,29 @@ body{
 	background: #2980B9;  /* fallback for old browsers */
 background: -webkit-linear-gradient(to right, #FFFFFF, #6DD5FA, #2980B9);  /* Chrome 10-25, Safari 5.1-6 */
 background: linear-gradient(to right, #FFFFFF, #6DD5FA, #2980B9); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-	
+	background-repeat: no-repeat;
+	background-position: center;
+	background-attachment: fixed;
 	}
+.supermain{
+	display:inline-grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+}
 .mainheading
 {
 	text-align: center;
 	font-family:Comic Sans MS;
 	font-size: 28px;
-        position:relative;
+
 	
 
 }
 .main{
 	background:white;
-	width: 13%;
+	
 	border-radius: 20px;
-	display: inline-block;
+	
+
     padding: 5px;
     margin: 20px; 
     
@@ -30,7 +37,7 @@ background: linear-gradient(to bottom, #ff5e62, #ff9966); /* W3C, IE 10+/ Edge, 
 
 
     margin-bottom: 30px;
-
+    
 
 	
 }
@@ -40,8 +47,7 @@ background: linear-gradient(to bottom, #ff5e62, #ff9966); /* W3C, IE 10+/ Edge, 
 	font-family:arial black;
 	font-size: 12px;
 	color: black;
-position: relative;
-	
+
 
 }
 .reponame pre{
@@ -51,7 +57,6 @@ position: relative;
 	font-family:comic sans ms;
 	font-size: 30px;
 	color:green ;
-position: relative;
 	
 
 
@@ -62,8 +67,7 @@ position: relative;
 	font-family: cooper black;
 	background-color: purple;
 	color: white;
-position: relative;
-
+	
 
 }
 .button{
@@ -131,9 +135,9 @@ background: linear-gradient(to bottom, #29ffc6, #20e3b2, #0cebeb); /* W3C, IE 10
 .reponame pre{
 	text-align:centre;
 	font-size:100%;
-Position: relative;
 }
 
+}
 .forkandstar pre:hover{
 	background-color: white;
 	color:purple;
@@ -149,5 +153,11 @@ footer img{
 	padding:4px;
 	cursor: pointer;
 }
-pre{
-position:fixed;}
+@media(max-width: 1440px)
+{
+grid-template-columns: 1fr 1fr ;
+}
+@media(max-width: 183px)
+{
+	grid-template-columns: 1fr 1fr ;
+}
