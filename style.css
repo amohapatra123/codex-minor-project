@@ -9,9 +9,9 @@ background: linear-gradient(to right, #FFFFFF, #6DD5FA, #2980B9); /* W3C, IE 10+
 	
 	
 	}
-.supermain{
+/*.supermain{
 	display:inline-grid;
-	grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+	grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;*/
 }
 .mainheading
 {
