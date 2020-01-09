@@ -153,11 +153,4 @@ footer img{
 	padding:4px;
 	cursor: pointer;
 }
-@media(max-width: 1440px)
-{
-grid-template-columns: 1fr 1fr ;
-}
-@media(max-width: 183px)
-{
-	grid-template-columns: 1fr 1fr ;
-}
+
